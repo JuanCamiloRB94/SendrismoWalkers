@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <tittle class="name"> 
+        Mi blogg senderismo
+    </tittle>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body>   
+    <header>
+        <h1 id="titulo">Blog Walkers</h1>
+    </header>
+    <section>
+        <article class="post">  
+            <div> 
+            <h2>Iniciacion en senderismo</h2>
+            <p>En este apartado daremos una explicacions sobre el senderismo,
+                la naturaleza, y como iniciar en el este magico mundo</p>
+                <img src="IMG/senderismo1.jpeg" width="300" />
+            
+            <p>la conexion con la naturaleza es lo mas importante.
+                <br>
+                el llegar a lugares llenos de paz y tranquilidad
+            </p>
+            </div>
+        </article>
+        <!---Aqui terminamos el primer enunciado y damo inicio al segundo-->
+        <article class="segundo">  
+            <div> 
+            <h2>¿Que es el senderimo?</h2>
+            <p>El senderimo yo lo defino como: es la capacidad de recorrer la naturaleza 
+                netamente con el poder de tu cuerpo, 
+                <br>
+                donde nos desconectamos del mundo
+                cotidiano, adentrandonos en la naturaleza y retando los limintes de 
+                nuestro cuerpo.
+            </p>
+                <img src="IMG/senderismo2.jpeg" width="400" />
+            <p>he aqui la alegria de llegar a una cumbre, algo  <strong>indescriptible</strong>
+            </p>
+            </div>
+        </article>
+        <!---Aqui terminamos el segundo enunciado para dar inicio al tercero-->
+        <article class="post tercero"> 
+            <div> 
+            <h2>¿Como iniciar en este magico mundo?</h2>
+            <p>La verdad no hay mucha ciencia detras del inicio en el senderimo, realmente
+                todo parte de las ganas y 
+                <br>
+                la motivacion que tengas de caminar, escalar, trepar 
+                y conquistar cerros y montañas, debes tener en cuenta
+                <br>
+                 que los dias que vayas
+                a realizar senderismo, es indispensable evitar el consumo de bebidas alcoholicas o 
+                <br>
+                algun tipo 
+                de alucinogeno, ya que estos afectan directamente nuestro desempeño.
+            </p>
+                <img src="IMG/senderismo3.jpg" height="150" width="400" />
+                 
+                  
+                    <br>
+                    <br>
+                    <br>
+                    
+            <p>La imagen nos muestra el equipaje que algunas veces llevamos
+                <br>
+                 <br>
+                  <br>
+                   <br>
+                a la hora de practicar el <strong>Senderismo</strong> como pasatiempo</p>
+                
+        </div>
+        </article>
+    </section>
+    <!----por ultimo terminamos el 3er enunciado y cerramos section-->
+    <button onclick="mostrarMensaje()" id="boton-mensaje">
+  Mostrar mensaje motivacional
+</button>
+<p id="mensaje" style="display: none; color: green; font-weight: bold;"></p>
+   
+    <br>
+    <footer> 
+        <article class="firma">
+        <ul>
+             <br>
+              <br>
+       <br>
+       <br>
+       <br>
+       <br>
+        <li> <a href="#titulo">ir al comienzo</a></li>
+        <li><a href="mailto:juancamilorb94@hotmail.com">Contactame aqui.</a></li>
+        <li>WhatsApp: 3245457423 
+        <li>Copyright 2025</li>
+        </ul>
+        </article>
+      
+        
+    </footer>
+<script>
+  function mostrarMensaje() {
+    const parrafo = document.getElementById("mensaje");
+    parrafo.textContent = "¡El primer paso es el más difícil, pero también el más importante! 💪🌄";
+    parrafo.style.display = "block";
+  }
+</script>
+
+</body>
+</html>

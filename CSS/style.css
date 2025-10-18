@@ -1,0 +1,89 @@
+.name {
+        font-family: 'Fjalla One';
+        text-align: center;
+        text-shadow: 5px 3px 5px #00f;
+        text-decoration: underline;
+
+}
+#titulo {
+    color: #0ad104;
+    background-color: rgba(0,0,0,0.5);
+    margin: 15px auto;
+    padding: 30px 15px;
+    border: 9px #000 solid;
+    width: 400px;
+    text-align: center;
+    font-family: 'Fjalla One';
+    
+}
+/* aca definimos color para el titulo*/
+.tercero {
+    color:rgb(173, 255, 47);
+    background-image: url("img/img1.jpeg");
+    background-size: cover;
+    height: 380px;
+}
+
+div p {
+    color:#000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div h2 {
+    color:rgb(173, 255, 47);
+    text-shadow: 3px 5px 7px #000;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.firma {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: #000;
+    list-style-position:inside;
+}
+* {
+    text-align: center;
+    font-size: 24px;
+    }
+
+/* #boton {
+     padding: 10px 20px;
+    background-color: #e0e0e0;
+    border: 2px solid green;
+    border-radius: 12px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+}
+#boton :hover {
+    background-color: #c6f3c6;
+}
+#mensaje 
+    {
+    text-align: center;
+    margin-top: 10px;
+  }
+#boton-mensaje {
+    animation: raveColors 1s infinite linear, shake 0.1s infinite;
+  background-color: red;
+} */
+ #boton-mensaje {
+  padding: 12px 24px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#boton-mensaje:hover {
+  background-color: #388e3c;
+  transform: translateY(-3px);
+}
